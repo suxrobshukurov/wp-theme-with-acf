@@ -1,0 +1,560 @@
+{
+    "key": "group_632ab89a8a8f6",
+    "title": "Повторяющийся текст Слотов",
+    "fields": [
+        {
+            "key": "field_632ab8a912739",
+            "label": "Тексты заголовков и кнопок",
+            "name": "slot-option-text",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_632ab95e1273b",
+                    "label": "Текст кнопки Demo play",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632ab8c91273a",
+                    "label": "Текст кнопки Demo play",
+                    "name": "play",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/yANdaWZkSlNq9I8vDBZr2sE5fOS1Tv\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=yANdaWZkSlNq9I8vDBZr2sE5fOS1Tv\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Demo play",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af1e683bc5",
+                    "label": "Заголовок Платформы",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af1fc83bc6",
+                    "label": "Заголовок Platform",
+                    "name": "platform",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Platform",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af23b83bc7",
+                    "label": "Заголовок Software provider",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af25c83bc8",
+                    "label": "Заголовок Software provider",
+                    "name": "softwares",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Software provider",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af28883bc9",
+                    "label": "Заголовок Free Spins",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af28d83bca",
+                    "label": "Заголовок Free Spins",
+                    "name": "free",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Free Spins",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af2a283bcb",
+                    "label": "Заголовок Reels",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af2b183bcc",
+                    "label": "Заголовок Reels",
+                    "name": "reels",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Reels",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af2cd83bcd",
+                    "label": "Заголовок Volatility",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af2d883bce",
+                    "label": "Заголовок Volatility",
+                    "name": "volatility",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Volatility",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af30d83bcf",
+                    "label": "Заголовок released",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af31883bd0",
+                    "label": "Заголовок Released",
+                    "name": "released",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Released",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af32c83bd1",
+                    "label": "Заголовок wild",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af34283bd2",
+                    "label": "Заголовок Wild character",
+                    "name": "wild",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Wild character",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af35083bd3",
+                    "label": "Заголовок rols",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af36683bd4",
+                    "label": "Rols",
+                    "name": "rols",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Rols",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af37e83bd5",
+                    "label": "Заголовок RTP",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af38c83bd6",
+                    "label": "RTP",
+                    "name": "rtp",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "RTP",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af3a183bd7",
+                    "label": "Заголовок Theme",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af3a683bd8",
+                    "label": "Theme",
+                    "name": "theme",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Theme",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af3b883bd9",
+                    "label": "Заголовок Autoplay",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af3c283bda",
+                    "label": "Autoplay",
+                    "name": "autoplay",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Autoplay",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632af3d083bdb",
+                    "label": "Заголовок Paylines",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632af3db83bdc",
+                    "label": "Paylines",
+                    "name": "paylines",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/qUEMKeYG8O0GsuluqS0vHZjnw17hyh\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=qUEMKeYG8O0GsuluqS0vHZjnw17hyh\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Paylines",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632b0fdaf516c",
+                    "label": "Заголовок Списка Казино",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632b103ff516d",
+                    "label": "Казино",
+                    "name": "casino",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/O1Xvg0LhA17x9GaCqOQk6ZwWoI2dsm\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=O1Xvg0LhA17x9GaCqOQk6ZwWoI2dsm\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Best Casinos to Play of",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-parametry-slotov"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "slot-option-text",
+    "show_in_rest": 0,
+    "modified": 1663844206
+}

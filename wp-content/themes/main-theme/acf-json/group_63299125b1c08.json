@@ -1,0 +1,2556 @@
+{
+    "key": "group_63299125b1c08",
+    "title": "Поля казино",
+    "fields": [
+        {
+            "key": "field_632991421c6b0",
+            "label": "Казино",
+            "name": "casino-data",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6329915f1c6b1",
+                    "label": "Общая информация о Казино",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329921f1c6b5",
+                    "label": "Имя",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 1,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632991bd1c6b2",
+                    "label": "Имя",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329925f1c6b7",
+                    "label": "Логотип",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632992351c6b6",
+                    "label": "Логотип",
+                    "name": "logo",
+                    "type": "image",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/1Vm7hraPIwueBLr1tzwl1vHnWMzz7P\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=1Vm7hraPIwueBLr1tzwl1vHnWMzz7P\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_632b194ba61c8",
+                    "label": "Фоновый цвет",
+                    "name": "bg",
+                    "type": "color_picker",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/ss9WRQXS1T5Qa2axTWyAHrb5TwpMeU\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"150\" src=\"https:\/\/api.monosnap.com\/file\/download?id=ss9WRQXS1T5Qa2axTWyAHrb5TwpMeU\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#fff",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329cf13389d1",
+                    "label": "Ссылка на регистрацию",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329cf50389d2",
+                    "label": "Ссылка на регистрацию",
+                    "name": "link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_6329cf87389d3",
+                    "label": "Текст ссылки",
+                    "name": "link-text",
+                    "type": "text",
+                    "instructions": "Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632b2b48500ca",
+                    "label": "Преимущество",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632b2b66500cb",
+                    "label": "Преимущество Заголовок",
+                    "name": "advantages-title",
+                    "type": "text",
+                    "instructions": "Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632b2c4f500d0",
+                    "label": "Преимущество",
+                    "name": "advantages",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_632b2c4f500d1",
+                            "label": "Значение",
+                            "name": "value",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "translate"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_632b2bc3500cc",
+                    "label": "Недостатки",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632b2be1500cd",
+                    "label": "Недостатки Заголовок",
+                    "name": "disadvantages-title",
+                    "type": "text",
+                    "instructions": "Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632b2c11500ce",
+                    "label": "Недостатки",
+                    "name": "disadvantages",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_632b2c2d500cf",
+                            "label": "Значение",
+                            "name": "value",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "translate"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_632b2c88500d2",
+                    "label": "Краткий обзор",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632b2c97500d3",
+                    "label": "Краткий обзор Заголовок",
+                    "name": "Introduction-title",
+                    "type": "text",
+                    "instructions": "Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                },
+                {
+                    "key": "field_632b349b25b18",
+                    "label": "Краткий обзор",
+                    "name": "intro",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "media_upload": 1,
+                    "delay": 0,
+                    "translations": "ignore",
+                    "toolbar": "full"
+                },
+                {
+                    "key": "field_6329c8012bbe3",
+                    "label": "Рейтинг",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 1
+                },
+                {
+                    "key": "field_6329c81e2bbe4",
+                    "label": "Рейтинг",
+                    "name": "rating",
+                    "type": "range",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "0.1",
+                    "min": "0.1",
+                    "max": 5,
+                    "step": "0.1",
+                    "prepend": "",
+                    "append": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_632991e81c6b4",
+                    "label": "Главная Информация",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63299d15417d7",
+                    "label": "Заголовок блока главной информации",
+                    "name": "general-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/KCHwuolMvZxjNgvSaC1aDd2D3pMfyS\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=KCHwuolMvZxjNgvSaC1aDd2D3pMfyS\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_63299f7916614",
+                    "label": "Информация",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63299d7d417d8",
+                    "label": "Главная Информация",
+                    "name": "general-info",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/IDGOCXu26XAdkDQLoUti0mutTmkZFA\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=IDGOCXu26XAdkDQLoUti0mutTmkZFA\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить информацию",
+                    "sub_fields": [
+                        {
+                            "key": "field_63299d9a417d9",
+                            "label": "Заголовок",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_63299def417da",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_63299dfc417db",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_63299e11417dc",
+                            "label": "Вариант значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "text": "Текст",
+                                "link": "Внешняя ссылка",
+                                "page": "Ссылка на страницу"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "text : Текст",
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_63299e69417dd",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63299e11417dc",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_63299e97417de",
+                            "label": "Внешняя ссылка",
+                            "name": "link",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63299e11417dc",
+                                        "operator": "==",
+                                        "value": "link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_6329a468ffb21",
+                            "label": "Текст внешней ссылки",
+                            "name": "link-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63299e11417dc",
+                                        "operator": "==",
+                                        "value": "link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_63299ecb417df",
+                            "label": "Ссылка на страницу",
+                            "name": "page",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63299e11417dc",
+                                        "operator": "==",
+                                        "value": "page"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "post",
+                                "page"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "allow_archives": 0,
+                            "multiple": 0,
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_632c2317b804b",
+                            "label": "Текст ссылки на страницу",
+                            "name": "page-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63299e11417dc",
+                                        "operator": "==",
+                                        "value": "page"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63299f8f16615",
+                    "label": "Язык",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63299fb016616",
+                    "label": "Заголовок",
+                    "name": "lang-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/lpMVuF1PtucLS1Fiqu5y6ZRBvZFU3P\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=lpMVuF1PtucLS1Fiqu5y6ZRBvZFU3P\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_63299fc016617",
+                    "label": "Значение",
+                    "name": "lang-value",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/F1jqFmM6wM5NSFMKXU3oohGqoqHIff\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=F1jqFmM6wM5NSFMKXU3oohGqoqHIff\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_63299fd516618",
+                    "label": "Страны",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 1
+                },
+                {
+                    "key": "field_6329a22964da8",
+                    "label": "Страны Заголовок",
+                    "name": "countries-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/cE6BOufjuAKuXVL3t0nWpSoDfGvrdR\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=cE6BOufjuAKuXVL3t0nWpSoDfGvrdR\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329a29a64da9",
+                    "label": "Страны Значение",
+                    "name": "countries",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/cE6BOufjuAKuXVL3t0nWpSoDfGvrdR\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=cE6BOufjuAKuXVL3t0nWpSoDfGvrdR\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить страну",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329a982187f5",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329a2b864daa",
+                            "label": "Тип значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "image": "Загрузить изображение",
+                                "text": "Текст"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "image : Загрузить изображение",
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6329a32764dab",
+                            "label": "Изображние",
+                            "name": "value-img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329a2b864daa",
+                                        "operator": "==",
+                                        "value": "image"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_6329a38064dac",
+                            "label": "Текст",
+                            "name": "value-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329a2b864daa",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329a86a4844b",
+                    "label": "Денежная Информация",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329a8944844c",
+                    "label": "Заголовок блока денежной информации",
+                    "name": "banking-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/KCHwuolMvZxjNgvSaC1aDd2D3pMfyS\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=KCHwuolMvZxjNgvSaC1aDd2D3pMfyS\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329a8df4844d",
+                    "label": "Минимальный депозит",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b36b011ab",
+                    "label": "Минимальный депозит Заголовок",
+                    "name": "min-deposit-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b39a011ac",
+                    "label": "Минимальный депозит Значение",
+                    "name": "min-deposit",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b3aa011ad",
+                    "label": "Минимальный вывод",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b3bf011ae",
+                    "label": "Минимальный вывод Заголовок",
+                    "name": "min-withdrawal-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b3da011af",
+                    "label": "Минимальный вывод Значение",
+                    "name": "min-withdrawal",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b3e4011b0",
+                    "label": "Максимальный вывод",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b3fd011b1",
+                    "label": "Максимальный вывод Заголовок",
+                    "name": "max-withdrawal-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b40f011b2",
+                    "label": "Максимальный вывод Значение",
+                    "name": "max-withdrawal",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b42a011b3",
+                    "label": "Время вывода",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b431011b4",
+                    "label": "Время вывода Заголовок",
+                    "name": "time-withdrawal-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b530011b5",
+                    "label": "Время вывода Значение",
+                    "name": "time-withdrawal",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329a9fbab63e",
+                    "label": "Валюты",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329aa0fab63f",
+                    "label": "Валюта Заголовок",
+                    "name": "currencies-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/L8v5kBMkNkGtRFsdRQBG85728i82aF\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=L8v5kBMkNkGtRFsdRQBG85728i82aF\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329aa77ab640",
+                    "label": "Валюта Значение",
+                    "name": "currencies",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/L8v5kBMkNkGtRFsdRQBG85728i82aF\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=L8v5kBMkNkGtRFsdRQBG85728i82aF\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить валюту",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329aa77ab641",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329aa78ab642",
+                            "label": "Тип значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "text": "Текст",
+                                "image": "Загрузить изображение"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "text : Текст",
+                            "layout": "",
+                            "return_format": "",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6329aa78ab643",
+                            "label": "Изображние",
+                            "name": "value-img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329aa78ab642",
+                                        "operator": "==",
+                                        "value": "image"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_6329aa78ab644",
+                            "label": "Текст",
+                            "name": "value-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329aa78ab642",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329aad5ab645",
+                    "label": "Методы депозита",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329aae8ab646",
+                    "label": "Депозит Заголовок",
+                    "name": "deposit-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/eqZGEBiuPVdVhbXgLa6amaJmpLsj2A\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=eqZGEBiuPVdVhbXgLa6amaJmpLsj2A\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329ab24ab647",
+                    "label": "Депозит Значение",
+                    "name": "deposit",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/eqZGEBiuPVdVhbXgLa6amaJmpLsj2A\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=eqZGEBiuPVdVhbXgLa6amaJmpLsj2A\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить депозит",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329ab24ab648",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329ab24ab649",
+                            "label": "Тип значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "image": "Загрузить изображение",
+                                "text": "Текст"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "image : Загрузить изображение",
+                            "layout": "",
+                            "return_format": "",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6329ab24ab64a",
+                            "label": "Изображние",
+                            "name": "value-img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329ab24ab649",
+                                        "operator": "==",
+                                        "value": "image"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_6329ab24ab64b",
+                            "label": "Текст",
+                            "name": "value-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329ab24ab649",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329ab92ab64c",
+                    "label": "Способы вывода",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 1
+                },
+                {
+                    "key": "field_6329aba4ab64d",
+                    "label": "Вывод Заголовок",
+                    "name": "withdrawal-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/64HsdrFdzavrr4vpCAWgPV9AHkTJA9\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=64HsdrFdzavrr4vpCAWgPV9AHkTJA9\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329ac76ab64e",
+                    "label": "Вывод Значение",
+                    "name": "withdrawal",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/64HsdrFdzavrr4vpCAWgPV9AHkTJA9\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=64HsdrFdzavrr4vpCAWgPV9AHkTJA9\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить вывод",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329ac76ab64f",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329ac76ab650",
+                            "label": "Тип значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "image": "Загрузить изображение",
+                                "text": "Текст"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "image : Загрузить изображение",
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6329ac76ab651",
+                            "label": "Изображние",
+                            "name": "value-img",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329ac76ab650",
+                                        "operator": "==",
+                                        "value": "image"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_6329ac76ab652",
+                            "label": "Текст",
+                            "name": "value-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6329ac76ab650",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329b0230119c",
+                    "label": "Поставщики программного обеспечения",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b02e0119d",
+                    "label": "Заголовок блока Software providers",
+                    "name": "softwate-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/PttFlOY7K6UsVq3wEToaLCDRYlH7Lw\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=PttFlOY7K6UsVq3wEToaLCDRYlH7Lw\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b0cc0119e",
+                    "label": "Software providers",
+                    "name": "providers",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/PttFlOY7K6UsVq3wEToaLCDRYlH7Lw\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=PttFlOY7K6UsVq3wEToaLCDRYlH7Lw\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить Software provider",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329b0e00119f",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329b11b011a0",
+                            "label": "Галочка \\ Крестик",
+                            "name": "has-check",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 0,
+                            "translations": "ignore",
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_632ac96a48528",
+                            "label": "Тип значения",
+                            "name": "value-type",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "text": "Текст",
+                                "link": "Ссылка на страницу"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "text : Текст",
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_6329b140011a1",
+                            "label": "Текст",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_632ac96a48528",
+                                        "operator": "==",
+                                        "value": "text"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_632ac9ab48529",
+                            "label": "Ссылка на страницу",
+                            "name": "link",
+                            "type": "page_link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_632ac96a48528",
+                                        "operator": "==",
+                                        "value": "link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "page"
+                            ],
+                            "taxonomy": "",
+                            "allow_null": 0,
+                            "allow_archives": 0,
+                            "multiple": 0,
+                            "translations": "ignore"
+                        },
+                        {
+                            "key": "field_632ac9f34852a",
+                            "label": "Текст ссылки",
+                            "name": "link-text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_632ac96a48528",
+                                        "operator": "==",
+                                        "value": "link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329b175011a2",
+                    "label": "Типы игр",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b191011a3",
+                    "label": "Заголовок блока Game types",
+                    "name": "gtypes-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/fNY8eckFtCNZDujDcanTU3vmlp3Dco\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=fNY8eckFtCNZDujDcanTU3vmlp3Dco\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b1b0011a4",
+                    "label": "Game types",
+                    "name": "gtypes",
+                    "type": "repeater",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/fNY8eckFtCNZDujDcanTU3vmlp3Dco\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=fNY8eckFtCNZDujDcanTU3vmlp3Dco\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Добавить Game type",
+                    "sub_fields": [
+                        {
+                            "key": "field_6329b1b0011a5",
+                            "label": "Значение",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_6329b1b0011a6",
+                            "label": "Галочка \\ Крестик",
+                            "name": "has-check",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 0,
+                            "translations": "ignore",
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_6329b1b0011a7",
+                            "label": "Текст",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "translations": "ignore"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6329b236011a8",
+                    "label": "Тех поддержка",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b24c011a9",
+                    "label": "Заголовок блока Support",
+                    "name": "support-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/gKctLNRaXF9aFxr0EBNNFzjPox7Qak\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=gKctLNRaXF9aFxr0EBNNFzjPox7Qak\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b5d4888e7",
+                    "label": "Телефон",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b619888e8",
+                    "label": "Телефон Заголовок",
+                    "name": "phone-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b63e888e9",
+                    "label": "Телефон Значение",
+                    "name": "phone",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b697888ea",
+                    "label": "Email",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b6aa888eb",
+                    "label": "Email Заголовок",
+                    "name": "email-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b716888ed",
+                    "label": "Email Значение",
+                    "name": "email",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b73b888ee",
+                    "label": "Live chat",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b747888ef",
+                    "label": "Live chat Заголовок",
+                    "name": "live-chat-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b774888f0",
+                    "label": "Live chat Значение",
+                    "name": "live-chat",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b794888f1",
+                    "label": "Working hours",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 1
+                },
+                {
+                    "key": "field_6329b79f888f2",
+                    "label": "Working hours Заголовок",
+                    "name": "working-hours-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b7e4888f3",
+                    "label": "Working hours Значение",
+                    "name": "working-hours",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b7f8888f4",
+                    "label": "Бонусная информация",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b8d0888fe",
+                    "label": "Заголовок блока Бонусная информация",
+                    "name": "bonus-title",
+                    "type": "text",
+                    "instructions": "<a href=\"https:\/\/monosnap.com\/file\/QQEXab0NkHrrr3sHnj36ujuhYHH5AA\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=QQEXab0NkHrrr3sHnj36ujuhYHH5AA\">\r\n<\/a>\r\n<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b814888f5",
+                    "label": "Welcome bonus",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b823888f6",
+                    "label": "Welcome bonus Заголовок",
+                    "name": "welcome-bonus-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b83e888f7",
+                    "label": "Welcome bonus Значение",
+                    "name": "welcome-bonus",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b861888f8",
+                    "label": "Free spins",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b86b888f9",
+                    "label": "Free spins Заголовок",
+                    "name": "free-spins-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b87f888fa",
+                    "label": "Free spins Значение",
+                    "name": "free-spins",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b8a4888fb",
+                    "label": "Wagering",
+                    "name": "",
+                    "type": "accordion",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "open": 0,
+                    "multi_expand": 0,
+                    "endpoint": 1
+                },
+                {
+                    "key": "field_6329b8ab888fc",
+                    "label": "Wagering Заголовок",
+                    "name": "wagering-title",
+                    "type": "text",
+                    "instructions": "<br>Если оставить поле пустым текс будет вставлен из пункта \"Общие настройки\" => \"Параметры Казино | Слоты\" => \"Повторяющийся текст казино\"",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b8bd888fd",
+                    "label": "Wagering Значение",
+                    "name": "wagering",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "ignore"
+                },
+                {
+                    "key": "field_6329b91d888ff",
+                    "label": "Предупреждение",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6329b94488900",
+                    "label": "Предупреждение",
+                    "name": "term",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "translations": "translate"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "templates\/casino-template.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "discussion",
+        "comments",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "casino-data",
+    "show_in_rest": 0,
+    "modified": 1663837002
+}

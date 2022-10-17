@@ -1,0 +1,311 @@
+{
+    "key": "group_632848b730ae0",
+    "title": "Sidebar",
+    "fields": [
+        {
+            "key": "field_632848c419669",
+            "label": "Сайтбар",
+            "name": "sidebar-data",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_632848dc1a10b": {
+                    "key": "layout_632848dc1a10b",
+                    "name": "block-output",
+                    "label": "Блок вывода",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63284d1d1966d",
+                            "label": "Вид",
+                            "name": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_63284d331966e",
+                            "label": "Вариант",
+                            "name": "choice",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "v1": "Вариант 1 (Список постов)",
+                                "v2": "Вариант 2 (Карточка казино)"
+                            },
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "default_value": "v1 : Вариант 1 (Список постов)",
+                            "layout": "vertical",
+                            "return_format": "value",
+                            "translations": "ignore",
+                            "save_other_choice": 0
+                        },
+                        {
+                            "key": "field_63284db51966f",
+                            "label": "Пример блока №1",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63284d331966e",
+                                        "operator": "==",
+                                        "value": "v1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "<a href=\"https:\/\/monosnap.com\/file\/asWYWZy15xfCwWWyTwO0IdguJ86n4E\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=asWYWZy15xfCwWWyTwO0IdguJ86n4E\">\r\n<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_632da75523e9d",
+                            "label": "Пример блока №2 Карточка казино",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63284d331966e",
+                                        "operator": "==",
+                                        "value": "v2"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "<a href=\"https:\/\/monosnap.com\/file\/wM8RbJrrV0C5si5AnBDYI4Sbh6KC0t\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=wM8RbJrrV0C5si5AnBDYI4Sbh6KC0t\">\r\n<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_63284e0e19670",
+                            "label": "Отображать Блок",
+                            "name": "show",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 0,
+                            "translations": "ignore",
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_63284e2119671",
+                            "label": "Main",
+                            "name": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_63284e3a19672",
+                            "label": "Вариант 1 (список постов)",
+                            "name": "v1",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63284d331966e",
+                                        "operator": "==",
+                                        "value": "v1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_63284e5e19673",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "translations": "ignore"
+                                },
+                                {
+                                    "key": "field_63284e7219674",
+                                    "label": "Список новостей",
+                                    "name": "news",
+                                    "type": "relationship",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "post"
+                                    ],
+                                    "taxonomy": [
+                                        "category:news"
+                                    ],
+                                    "filters": [
+                                        "search",
+                                        "post_type",
+                                        "taxonomy"
+                                    ],
+                                    "elements": "",
+                                    "min": "",
+                                    "max": "",
+                                    "return_format": "id",
+                                    "translations": "ignore"
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_632da79e23e9e",
+                            "label": "Вариант №2 Карточка казино",
+                            "name": "v2",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63284d331966e",
+                                        "operator": "==",
+                                        "value": "v2"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_632da79e23ea0",
+                                    "label": "Карточка казино",
+                                    "name": "casino",
+                                    "type": "post_object",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "post_type": [
+                                        "post"
+                                    ],
+                                    "taxonomy": [
+                                        "category:casino"
+                                    ],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "return_format": "id",
+                                    "translations": "ignore",
+                                    "ui": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Добавить",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "sidebar-data",
+    "show_in_rest": 0,
+    "modified": 1663937038
+}

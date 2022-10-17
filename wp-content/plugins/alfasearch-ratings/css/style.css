@@ -1,0 +1,48 @@
+#main {background: #fff; border: 1px solid #c3c4c7;
+box-shadow: 0 1px 1px rgba(0,0,0,.04); margin: 48px 15px 2px; padding: 12px;}
+#main .all_bookmakers {padding:20px 0;}
+#main .bookmaker_item {margin-bottom:12px; cursor:move; display: flex;}
+#main .bookmaker_item span {font-size: 14px; font-weight: 600; width:115px;  display: inline-block;}
+#main .bookmaker_item .input {width:50px; position:relative;}
+#main .bookmaker_item .input input {width:100%;}
+
+#main .bookmaker_item .input.success:after {content:''; width:16px; height:16px; position:absolute; top:-5px; right:-8px; 
+background:url(/wp-content/plugins/alfasearch-ratings/images/success.png)no-repeat; background-size:cover;}
+#main .bookmaker_item input.success {background:#ddd;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #eee;
+    width: 100%;
+}
+.tab-btn {
+    border: 1px solid #eee;
+    padding: 10px;
+    color: #0a0a0a;
+    background: transparent;
+    cursor: pointer;
+}
+.tab-btn.active {
+    background: #0a4b78;
+    color: #ffffff;
+    border: 1px solid #0a4b78;
+}
+.tabs-content {
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    padding: 24px 0;
+}
+.tab-item {
+    display: none;
+}
+.tab-item.active {
+    display: block;
+}
+

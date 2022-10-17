@@ -1,0 +1,124 @@
+{
+    "key": "group_632c3fad45fc7",
+    "title": "Логотип",
+    "fields": [
+        {
+            "key": "field_632c3fb8c4571",
+            "label": "",
+            "name": "logo-data",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_632c4245f22f0",
+                    "label": "Логотип в шапке",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632c3fd1c4572",
+                    "label": "Logo в шапке",
+                    "name": "logo-header",
+                    "type": "image",
+                    "instructions": "Укажите alt текст и заголовок при загрузке изображения<br>\r\n<a href=\"https:\/\/monosnap.com\/file\/xSTM29xWk2G42Jmnxdwb4GuQOBPFea\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=xSTM29xWk2G42Jmnxdwb4GuQOBPFea\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "translations": "copy_once"
+                },
+                {
+                    "key": "field_632c4257f22f1",
+                    "label": "Логотип в подвале",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "left",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_632c4015c4573",
+                    "label": "Logo в подвале",
+                    "name": "logo-footer",
+                    "type": "image",
+                    "instructions": "Укажите alt текст и заголовок при загрузке изображения<br>\r\n<a href=\"https:\/\/monosnap.com\/file\/xSTM29xWk2G42Jmnxdwb4GuQOBPFea\" target=\"_blank\" ref=\"nofollow\">\r\n<img width=\"250\" src=\"https:\/\/api.monosnap.com\/file\/download?id=xSTM29xWk2G42Jmnxdwb4GuQOBPFea\">\r\n<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "translations": "copy_once"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "logo-data",
+    "show_in_rest": 0,
+    "modified": 1664372363
+}
